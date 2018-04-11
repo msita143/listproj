@@ -1,0 +1,37 @@
+.App {
+	/* text-align: center; */
+	justify-content: center;
+	margin: 10px 100px;
+}
+
+.App-itemListContainer {
+	border: 1px solid black;
+	/*width: 100%;*/
+
+	margin: 10px 60px;
+	height: 100px;
+	display: flex;
+	overflow-x: scroll;
+}
+
+.App-itemDescContainer {
+	border: 1px solid black;
+	margin: 10px 60px;
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.App-headLabel {
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
+
+.App-subheadLabel {
+	font-size: 10px;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+}
+
